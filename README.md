@@ -12,13 +12,9 @@
 https://github.com/puny-code/dsh-speed-anchor/releases/download/v0.6.0/dsh-speed-anchor-0.6.0.tgz
 ```
 
-或者命令行：
-
-```
-dsh plugin --profile <profile> add https://github.com/puny-code/dsh-speed-anchor/releases/download/v0.6.0/dsh-speed-anchor-0.6.0.tgz
-```
-
 装完刷新窗口。卸载走插件管理的停用/移除，它会从 profile 的 bundle 列表里消失，官方那颗胶囊自动回来。
+
+只有一个链接要粘，别用 `dsh plugin add <url>` 代替：那条命令只是把包加进 profile 的依赖，不会把它登记进 bundle 列表，插件不会启用（还得回插件管理里手动打开）。要装就用插件管理这个入口。
 
 ## 折线上的数字是怎么来的
 

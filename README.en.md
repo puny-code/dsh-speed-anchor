@@ -12,13 +12,9 @@ In the DSH plugin manager choose "install from URL" and paste:
 https://github.com/puny-code/dsh-speed-anchor/releases/download/v0.6.0/dsh-speed-anchor-0.6.0.tgz
 ```
 
-Or:
-
-```
-dsh plugin --profile <profile> add https://github.com/puny-code/dsh-speed-anchor/releases/download/v0.6.0/dsh-speed-anchor-0.6.0.tgz
-```
-
 Reload the window afterwards.
+
+Use that entry point rather than `dsh plugin add <url>`: the CLI only adds the package dependency, without registering it in the profile's bundle list, so the plugin stays inactive until you enable it in the plugin manager.
 
 ## Where the numbers come from
 
