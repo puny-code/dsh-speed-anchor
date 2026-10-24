@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Token Speed Sparkline",
+    "description": "Replaces the collapsed composer activity stat with a reasonix-style live tokens-per-second sparkline pill."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "dsh-speed-anchor",
+  "version": "0.6.0",
+  "private": true,
+  "description": "Live token-speed pill for the composer dock: a sparkline sampled every 200 ms from the streaming text, the current tok/s figure, and a settings page for the sampling step and averaging window.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "client.js", "cordis.patch.yml", "locale/*.json", "icon.svg"],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": { "platform": "web" }
+  },
+  "keywords": ["deepseek", "deepseek-harness", "dsh", "dsh-plugin", "client-plugin", "tps"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puny-code/dsh-speed-anchor.git"
+  },
+  "homepage": "https://github.com/puny-code/dsh-speed-anchor#readme",
+  "bugs": {
+    "url": "https://github.com/puny-code/dsh-speed-anchor/issues"
+  },
+  "author": "puny-code",
+  "license": "MIT"
+}

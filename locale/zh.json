@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "生成速度折线",
+    "description": "把输入框下方的折叠态统计换成 reasonix 风格的实时 tok/s 折线与速度胶囊。"
+  }
+}
